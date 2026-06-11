@@ -88,10 +88,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     position: relative;
-    gap: 0.5rem;
 }
 
 .sobre-contenido {
@@ -99,7 +97,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1rem 0;
 }
 
 .sobre-contenido img {
@@ -849,4 +846,8 @@ footer{
 .reveal.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+.padrinos{
+    transform: translateY(-20px);
 }
